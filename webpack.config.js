@@ -2,6 +2,7 @@ const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 const webpack = require('webpack');
 
+
 const browserConfig = {
   mode: 'development',
   entry: { app: ['./browser/App.jsx'] },
